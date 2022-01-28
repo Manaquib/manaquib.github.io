@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
 
 .container {
@@ -47,4 +52,15 @@
     color: #000000;
     height: 10vh;
     font-family: 'Quicksand', sans-serif;
+}
+
+.main{
+    max-height: 75vh;
+    overflow: scroll;
+}
+
+.labs{
+    padding: 10vh;
+    border-bottom: 2px solid grey;
+    background-color: #fff8dc;
 }
