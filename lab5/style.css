@@ -52,6 +52,7 @@
     color: #000000;
     height: 10vh;
     font-family: 'Quicksand', sans-serif;
+    transition: all .5s;
 }
 
 .navbar ul li a:hover{
