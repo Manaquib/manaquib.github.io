@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +35,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+    height: 100%;
 }
 
 .navbar ul li {
@@ -42,4 +44,5 @@
 
 .navbar ul li a {
     height: 10vh;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
