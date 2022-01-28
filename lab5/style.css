@@ -54,6 +54,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.navbar ul li a:hover{
+    font-weight: 900;
+}
+
 .main{
     max-height: 75vh;
     overflow: scroll;
