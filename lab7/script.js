@@ -1,14 +1,16 @@
 function printf() {
-    console.log("Hello World from print function in console.")
+    console.log("Hello World from function in console.")
 }
 
 function printf2() {
+    document.write("<br><br>")
     document.write("Hello World.")
+    document.write("<br>Check the console for a result.")
 }
 
 function add() {
     var a = 10, b = 12;
-    document.write("<br><br>")
+    document.write("<br>")
     document.write("<br>")
     document.write("<br>Addition of a and b is = " + (a + b))
 }
@@ -22,9 +24,20 @@ function table() {
     }
 }
 
+function calc() {
+    var a=10,b=20;
+    document.write("<br><br>")
+    document.write("<br>Basic calculations")
+    document.write("<br>Addition of 10 and 20 = "+(a+b))
+    document.write("<br>Subtraction of 10 and 20 = "+(a-b))
+    document.write("<br>Multiplication of 10 and 20 = "+(a*b))
+    document.write("<br>Division of 10 and 20 = "+(a/b))
+}
+
 document.getElementById("submit").addEventListener("click", () => {
     printf()
     printf2()
     add()
     table()
+    calc()
 })
