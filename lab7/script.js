@@ -1,10 +1,12 @@
 function printf() {
-    console.log("Hello World from print function")
+    console.log("Hello World from print function in console.")
 }
 
 function printf2() {
-    document.write("Hello World from print function")
+    document.write("Hello World.")
 }
 
-printf()
-printf2()
+document.getElementById("submit").addEventListener("click", ()=>{
+    printf()
+    printf2()
+})
