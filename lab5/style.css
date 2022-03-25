@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0;
 }
 
@@ -52,20 +52,30 @@
     color: #000000;
     height: 10vh;
     font-family: 'Quicksand', sans-serif;
-    transition: all .5s;
+    transition: .5s;
 }
 
-.navbar ul li a:hover{
+.navbar ul li:hover {
     font-weight: 900;
+    font-size: larger;
 }
 
-.main{
+.main {
     max-height: 75vh;
     overflow: scroll;
 }
 
-.labs{
+.lab1,
+.lab2,
+.lab3,
+.lab4 {}
+
+.labs {
     padding: 10vh;
     border-bottom: 2px solid grey;
     background-color: #fff8dc;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

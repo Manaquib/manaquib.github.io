@@ -9,30 +9,31 @@
 <body>
     <div class="myForm">
         <h2 style="z-index: 1; text-decoration: underline;">Registration Form</h2>
-        <form action="">
-            <input type="text" name="" placeholder="Enter your Name..." class="formInputs name" required>
-            <input type="email" name="" placeholder="Enter your Email..." class="formInputs email" required>
-            <input type="number" name="" placeholder="Enter your Pincode..." class="formInputs pin" required>
-            <select name="" class="formInputs state" required>
-                    <option >Please select your State</option>
-                    <option >Andra Pradesh</option>
-                    <option >Arunachal Pradesh</option>
-                    <option >Bihar</option>
-                    <option >Himachal Pradesh</option>
-                    <option >Madhya Pradesh</option>
-                    <option >Maharashtra</option>
-                    <option >Uttar Pradesh</option>
-                </select>
-            <select name="" class="formInputs city" required>
-                    <option >Please select your City</option>
-                    <option >Barwah</option>
-                    <option >Bhopal</option>
-                    <option >Dewas</option>
-                    <option >Gwalior</option>
-                    <option >Indore</option>
-                    <option >Ratlam</option>
-                    <option >Ujjain</option>
-                </select>
+        <form id="form" action="">
+            <input type="text" name="" placeholder="Enter your Name..." class="formInputs" id="name">
+            <input type="email" name="" placeholder="Enter your Email..." class="formInputs email" id="email">
+            <select name="" class="formInputs state" id="state">
+                <option >Please select your State</option>
+                <option >Andra Pradesh</option>
+                <option >Arunachal Pradesh</option>
+                <option >Bihar</option>
+                <option >Himachal Pradesh</option>
+                <option >Madhya Pradesh</option>
+                <option >Maharashtra</option>
+                <option >Uttar Pradesh</option>
+            </select>
+            <select name="" class="formInputs city" id="city">
+                <option >Please select your City</option>
+                <option >Barwah</option>
+                <option >Bhopal</option>
+                <option >Dewas</option>
+                <option >Gwalior</option>
+                <option >Indore</option>
+                <option >Ratlam</option>
+                <option >Ujjain</option>
+            </select>
+            <textarea name="" placeholder="Enter your Address" class="formInputs address" id="address" cols="30" rows="10"></textarea >
+            <input type="number" name="" placeholder="Enter your Pincode..." class="formInputs pin" id="pin">
             <h3>Gender</h3>
             <div class="formInputs gender">
                 <div class="male">
@@ -48,12 +49,10 @@
                     <input name="choice" type="radio">
                 </div>
             </div>
-            <textarea name="" placeholder="Enter your Address" class="formInputs address" cols="30" rows="10"></textarea required>
-                <input type="submit" class="formInputs" value="Submit">
-                <input type="reset" class="formInputs" value="Reset">
-            </form>
-        </div>
-    </div>  
+            <input type="submit" class="formInputs buttons" id="submit" value="Submit">
+            <input type="reset" class="formInputs buttons" id="reset" value="Reset">
+        </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
